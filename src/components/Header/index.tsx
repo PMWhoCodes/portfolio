@@ -1,12 +1,15 @@
 import React from "react"
 import { navLinks } from "./data"
 import Link from "next/link"
+import { Logo } from "../logo"
+import styles from './header.module.css'
 
 const Header = () => {
     return (
-        <header>
-            <section>
-                <h3>Javier Garcia</h3>
+        <header className={styles.navContainer}>
+            <section className={styles.leftNav}>
+                <Logo />
+                <h3 className={styles.name}>Javier Garcia</h3>
             </section>
             <span className='fill-space' />
             <section>
