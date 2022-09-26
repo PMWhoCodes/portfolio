@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 
 const SVG: React.FC = () => {
     return (
