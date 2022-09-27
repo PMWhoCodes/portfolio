@@ -11,9 +11,9 @@ type AppProps = {
 const Layout = ({ children }: AppProps) => {
     return (
         <>
-            <main>
+            <main className={styles.container}>
                 <Header />
-                <div className={styles.container}>{children}</div>
+                <div>{children}</div>
                 <Footer />
             </main>
         </>
