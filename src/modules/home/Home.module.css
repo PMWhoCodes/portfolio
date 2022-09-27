@@ -1,0 +1,35 @@
+.hero {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+/* or 106% */
+
+
+/* primary */
+
+color: #262626;
+}
+
+.heroHighlight {
+  color: #F50000;
+}
+
+.subheading {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* primary */
+
+color: #262626;
+
+}
+
+.subheadingBold {
+font-weight: 700;
+}

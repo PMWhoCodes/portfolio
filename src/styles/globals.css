@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/Fonts/Inter/static/Inter-Bold.ttf');
+  }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
