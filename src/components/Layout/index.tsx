@@ -1,10 +1,11 @@
 import React, { FC } from "react";
 import Footer from "../Footer";
 import Header from "../Header";
+import styles from "./layout.module.css"
 
 
 type AppProps = {
-    children: JSX.Element
+    children: JSX.Element| JSX.Element[]
 }
 
 const Layout = ({ children }: AppProps) => {
@@ -12,7 +13,7 @@ const Layout = ({ children }: AppProps) => {
         <>
             <main>
                 <Header />
-                <div>{children}</div>
+                <div className={styles.container}>{children}</div>
                 <Footer />
             </main>
         </>

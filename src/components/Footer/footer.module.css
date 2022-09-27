@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+font-family: 'Inter';
+font-weight: 400;
+margin: 1rem;
+padding: 16px 0px;
+gap: 16px;
+
+width: 342px;
+height: 176px;
+
+border-top: 1px solid #000000;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.footer>ul {
+    list-style: none;
+}

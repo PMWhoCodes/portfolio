@@ -12,19 +12,17 @@ const Header = () => {
                 <h3 className={styles.name}>Javier Garcia</h3>
             </section>
             <span className='fill-space' />
-            <section>
-                <nav>
-                    <ul>
-                        {navLinks.map((link, index) => {
-                            return (
-                                <Link href={link.path} key={index}>
-                                    <li >{link.name}</li>
-                                </Link>
-                            )
-                        })}
-                    </ul>
-                </nav>
-            </section>
+            <nav>
+                <ul className={styles.menu}>
+                    {navLinks.map((link, index) => {
+                        return (
+                            <Link href={link.path} key={index}>
+                                <li >{link.name}</li>
+                            </Link>
+                        )
+                    })}
+                </ul>
+            </nav>
         </header>)
 }
 
